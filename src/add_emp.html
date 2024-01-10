@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles1.css">
+    <title>Payroll Management System</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div>
+            <h2>Add New Employee</h2>
+            <br>
+            <h3>Name :</h3>
+            <input type="text" id="employeeName" placeholder="Employee Name">
+            <br>
+            <h3>Designation :</h3>
+            <input type="text" id="employeedesignation" placeholder="Employee designation">
+            <br>
+            <h3>Basic Pay :</h3>
+            <input type="number" id="basicpay" placeholder="Basic Pay">
+            <br>
+            <h3>Loan :</h3>
+            <input type="number" id="loan" placeholder="Loan">
+            <br>
+            <h3>Joining Date :</h3>
+            <input type="date" id="joiningdate" placeholder="Joining Date">
+            <br>
+
+        </div>
+        <button onclick="addEmployee()">Submit</button>
+
+        
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

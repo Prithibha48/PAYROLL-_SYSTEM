@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan Script');
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/826/934/351/pink-white-blue-purple-paint-splash-hd-wallpaper-preview.jpg);
+    background-size:cover;
+}
+
+.container {
+    text-align: center;
+    padding: 80px;
+    
+    border-radius: 20px;
+    background-color:transparent;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ7uCqR7tajXJqQfrCeOPZ7bopqacbbAMePQ&usqp=CAU);
+    background-size:cover;
+}
+
+h1 {
+    color: #252424;;
+    font-family:'Kaushan Script';
+}
+button {
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: hsl(340, 65%, 84%);
+    color: #0a0a0a;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Cambria',' Cochin', Georgia, Times, 'Times New Roman', serif;
+    font-style:oblique;
+    font-weight: 300;
+
+}
+
+button:hover {
+    background-color: hwb(290 64% 5%);
+}
+
+#result {
+    margin-top: 20px;
+}

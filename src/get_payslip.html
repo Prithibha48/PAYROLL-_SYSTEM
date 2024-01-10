@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Payroll Management System</title>
+</head>
+<body>
+    
+    <div class="container">
+        
+        
+
+       
+        <div>
+            <h2>Get Payslip</h2>
+            <h3>Employee id : </h3>
+            <input type="text" id="employeeIdForPayslip" placeholder="Employee ID for Payslip">
+            <br>
+            <button onclick="getPayslip()">Submit</button>
+            
+        </div>
+        <div id="payhead">
+          <h2>Pay Slip</h2>
+        </div>
+
+        <div id="result">
+            <table >
+                <thead>
+                  <tr>
+                    <th>Employee ID</th>
+                    <th>Name</th>
+                    <th>Designation</th>
+                    <th>Basic Pay</th>
+                    <th>Meal Allowance</th>
+                    <th>House Rent</th>
+                    <th>Provident Fund</th>
+                    <th>Professional Tax</th>
+                    <th>Loan</th>
+                    <th>Net Pay</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr id="resultRow">
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+              </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

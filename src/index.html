@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Payroll Management System</title>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <h1>Payroll Management System</h1>
+
+        <div>
+           <a href="add_emp.html" ><button onclick="redirectToAddEmployee()">Add Employee</button></a>
+
+           
+        </div>
+
+        <div>
+            <a href="delete_emp.html"><button onclick="deleteEmployee()">Delete Employee</button> </a>
+        </div>
+
+        <div>
+           <a href="get_payslip.html" ><button onclick="getPayslip()">Get Payslip</button></a>
+        </div>
+
+        <div>
+            <a href="get_all.html" ><button onclick="getAllEmployees()">Employees List</button></a>
+         </div>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

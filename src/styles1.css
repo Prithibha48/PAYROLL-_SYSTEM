@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson Text');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/722/662/336/samsung-galaxy-polyart-pastel-wallpaper-thumb.jpg);
+    background-size:cover;
+}
+
+.container {
+    text-align: center;
+    padding: 80px;
+    
+    border-radius: 8px;
+    background-image: url(https://www.eclatbysylvi.com/wp-content/uploads/2016/05/Light-Blue-blur-background.jpg);
+    
+}
+h3{
+    display: inline-block;
+    align-items: center;
+    font-family: 'Crimson Text';
+}
+
+input{
+    margin: 10px;
+    padding: 5px;
+    
+}
+h2 {
+    color: #333;
+    font-style: italic;
+}
+button {
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: hsl(340, 65%, 84%);
+    color: #0a0a0a;
+    border: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    font-family: 'Cambria',' Cochin', Georgia, Times, 'Times New Roman', serif;
+    font-style:oblique;
+    font-weight: 300;
+
+
+}
+
+button:hover {
+    background-color: hwb(290 64% 5%);
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+    
+}
